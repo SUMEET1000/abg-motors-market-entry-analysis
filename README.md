@@ -48,7 +48,16 @@ Internshala Data Science/
 
 ---
 
-## Reproduction & Execution
+## Quickstart: Run Entire Pipeline (1-Click)
+
+```bash
+python main.py
+```
+This runs the full end-to-end pipeline (data cleaning, modeling, 5-fold cross-validation, forecasting, Tableau export, and automated unit tests) in under 30 seconds.
+
+---
+
+## Step-by-Step Reproduction & Execution
 
 ### 1. Run Data Preparation & Feature Engineering
 ```bash
