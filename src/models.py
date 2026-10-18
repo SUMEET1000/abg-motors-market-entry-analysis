@@ -1,8 +1,11 @@
 import os
 import json
 import pandas as pd
+# pyrefly: ignore[missing-import]
 import numpy as np
+# pyrefly: ignore[missing-import]
 import matplotlib.pyplot as plt
+# pyrefly: ignore[missing-import]
 import seaborn as sns
 
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_validate
@@ -14,6 +17,7 @@ from sklearn.metrics import (
     roc_auc_score, average_precision_score, log_loss,
     confusion_matrix, roc_curve, precision_recall_curve, classification_report
 )
+# pyrefly: ignore[missing-import]
 import statsmodels.api as sm
 
 def train_and_evaluate_models(data_path: str = "data/processed/japanese_cleaned.csv",
